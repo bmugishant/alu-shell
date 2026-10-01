@@ -1,3 +1,2 @@
 #!/bin/bash
-# Prints every other line from stdin, starting with the first
-sed -n 'p;n'
+awk 'NR % 2'
