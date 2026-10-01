@@ -1,2 +1,3 @@
 #!/bin/bash
-awk 'NR % 2'
+# Prints every other line from stdin, starting with the first
+sed -n 'p;n'
